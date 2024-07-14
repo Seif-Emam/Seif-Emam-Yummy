@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummey</title>
+    <link rel="shortcut icon" href="images/tasty.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+
+    <div class="looding ">
+
+        <span class="loader"></span>
+    </div>
+    <div id="SideNav" class=" Sidenav z-3 d-flex position-fixed top-0 min-vh-100 ">
+        <div id="Sidebar" class="sidebar d-flex flex-column justify-content-between min-vh-100 p-4 ">
+            <div id="side" class="d-flex flex-column  ">
+
+                <a onclick="DisplaySearchInputs()" href="#">Search</a>
+                <a onclick="getCategories()" href="#">Categories</a>
+                <a onclick="getArea()" href="#">Area</a>
+                <a onclick="getIngredients()" href="#">Ingredients</a>
+                <a onclick="ContcatUs()" href="#">Contact Us</a>
+
+
+
+            </div>
+
+            <div class="footer">
+
+                <div class="d-flex  icnos-nav ">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+
+                <p>Copyright Â© 2019 All Rights <br> Reserved.</p>
+            </div>
+        </div>
+
+        <div class="tab d-flex flex-column justify-content-between min-vh-100 text-center py-4  px-2   bg-white">
+
+            <img style="width: 50px;" src="images/tasty.png" alt="Logo">
+
+            <div style="color: black;">
+
+                <span id="openNav" class="fa-solid fa-bars" style="font-size:30px;cursor:pointer"> </span>
+            </div>
+
+
+
+            <div style="color: black;">
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="home mt-5  ">
+        <div class="container">
+
+            <div class="row Show py-5 g-5">
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <section id="Details ">
+
+        <div class="container">
+
+            <div class=" detials row py-5  g-5">
+
+            </div>
+
+
+
+        </div>
+    </section>
+ 
+
+
+    <div class="searchContainer container w-75  fixed-top ">
+     </div>
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./JS/jquery-3.7.1.js"></script>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>
